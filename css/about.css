@@ -1,0 +1,149 @@
+#banner-line {
+    background-color: #444dad;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-text {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.dot {
+    color: #6270ff;
+}
+
+/* AboutUs */
+
+#aboutUs {
+    padding-top: 80px;
+    padding-bottom: 96px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #6270ff;
+}
+
+/* Our Team */
+
+.position {
+    font-size: 12px;
+    color: #6270ff;
+    text-transform: uppercase;
+}
+
+#ourTeam {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: #f7fafb;
+}
+
+
+h4 {
+    font-weight: 600;	
+    color: #0d0e0e;
+}
+
+.row {
+	margin-top: 48px;
+}
+
+.description {
+	margin-top: 24px;
+}
+
+.description p {
+	text-align: center;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+/*With :after */
+figure.test {	
+	display: inline-block;
+	position: relative;
+	overflow: hidden;	
+	text-align: center;		
+    cursor: pointer;
+}
+figure.test img {
+    width: 270px;
+}
+
+figure.test figcaption {
+	position: absolute;
+	top: 50%;
+	left: 12.5%;
+	right: 22.5%;	
+	width: 200px;
+	opacity: 0;
+	z-index: 1;
+	transition: all 0.8s ease-out;
+	transition-delay: 0.2s;
+}
+
+figure.test:after {
+	display: inline-block;
+	position: absolute;
+	content: "";
+	top: 7%;
+	left: 10%;
+	right: 10%;
+	bottom: 7%;
+	background: white;
+	opacity: 0;
+	transition: all 0.8s ease-out;
+}
+
+figure.test:hover:after {
+	opacity: 0.9;
+}
+
+figure.test:hover figcaption {
+	transform: translateY(-50%);
+	opacity: 1;
+}
+
+/* Icons */
+
+#icons {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.number {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.inbox {
+    margin-bottom: 27px;
+}
+
+/* Our Clients */
+
+#clients {
+    background-image: url('../img/clients-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.client-review {
+    font-size: 13px;
+}
+
+.clientName {
+    color: #000;
+    font-size: 15px;
+}
+
+/* FAQ */
+
+#faq {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}

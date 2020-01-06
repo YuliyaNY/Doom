@@ -1,0 +1,43 @@
+#news {
+    padding-top: 80px;
+}
+
+.news-name {
+    font-size: 14px;
+}
+
+.links {
+    font-size: 15px;
+}
+
+.archive-links a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.comment {
+    font-size: 13px;
+}
+
+.comment a {
+    text-decoration: none;
+    color: #6270ff;
+}
+
+.inst-post {
+    width: 74px;
+    height: 74px;;
+}
+
+.post-main-text a {
+    text-decoration: none;
+    color: #000;
+}
+
+.post-text {
+    font-size: 13px;
+}
+
+#third {
+    padding-bottom: 96px;
+}

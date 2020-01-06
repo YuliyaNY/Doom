@@ -1,0 +1,26 @@
+.intro {
+    padding-top: 80px;
+}
+
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 80px;
+}
+
+.example {
+    width: 500px;
+}
+
+.portfolio-text {
+    font-size: 14px;
+}
+
+.portfolio-top-text {
+    font-size: 13px;
+}
+
+.readMore a {
+    text-decoration: none;
+    color: #6270ff;
+    font-size: 14px;
+}
