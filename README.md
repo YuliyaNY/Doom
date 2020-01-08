@@ -3,7 +3,7 @@ Multi-page creative website.
 
 ## Built With: 
 - HTML/CSS
-- Jquery
+- jQuery
 - Animation
 
 ![](https://raw.githubusercontent.com/YuliyaNY/Doom/master/img/doom-readme.jpg)
